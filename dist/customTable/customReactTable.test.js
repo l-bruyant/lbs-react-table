@@ -3,11 +3,11 @@
 var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault").default;
 var _react = require("@testing-library/react");
 var _react2 = _interopRequireDefault(require("react"));
-var _CustomTable = _interopRequireDefault(require("./CustomTable"));
+var _customReactTable = _interopRequireDefault(require("./customReactTable"));
 /* eslint-disable testing-library/prefer-screen-queries */
 /* eslint-disable no-undef */
 
-describe('CustomTable', function () {
+describe('CustomReactTable', function () {
   it('should display the data', function () {
     var data = [{
       name: 'John',
@@ -27,7 +27,7 @@ describe('CustomTable', function () {
     }];
     var paginationOptions = ['2', '5', '10'];
     var defaultPaginationOption = '5';
-    var _render = (0, _react.render)( /*#__PURE__*/_react2.default.createElement(_CustomTable.default, {
+    var _render = (0, _react.render)( /*#__PURE__*/_react2.default.createElement(_customReactTable.default, {
         data: data,
         fieldsSetup: fieldsSetup,
         paginationOptions: paginationOptions,

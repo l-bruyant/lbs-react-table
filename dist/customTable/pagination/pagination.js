@@ -8,6 +8,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = Pagination;
 var _slicedToArray2 = _interopRequireDefault(require("@babel/runtime/helpers/esm/slicedToArray"));
 var _react = _interopRequireWildcard(require("react"));
+/* eslint-disable eqeqeq */
 /* eslint-disable react-hooks/exhaustive-deps */
 
 /**

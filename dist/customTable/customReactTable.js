@@ -5,9 +5,9 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = CustomTable;
+exports.default = CustomReactTable;
 var _slicedToArray2 = _interopRequireDefault(require("@babel/runtime/helpers/esm/slicedToArray"));
-require("./customTable.css");
+require("./customReactTable.css");
 var _react = _interopRequireWildcard(require("react"));
 var _externalDropdown = _interopRequireDefault(require("./dropdown/externalDropdown"));
 var _pagination = _interopRequireDefault(require("./pagination/pagination"));
@@ -22,13 +22,13 @@ var _sortTable = _interopRequireDefault(require("./utils/sortTable"));
  * A complete table component with search, sort and pagination
  * See proptypes for more information about each prop
  *
- * @function CustomTable
+ * @function CustomReactTable
  *
- * @returns the CustomTable component
+ * @returns the CustomReactTable component
  *
  */
 
-function CustomTable(_ref) {
+function CustomReactTable(_ref) {
   var data = _ref.data,
     fieldsSetup = _ref.fieldsSetup,
     defaultSortingField = _ref.defaultSortingField,
