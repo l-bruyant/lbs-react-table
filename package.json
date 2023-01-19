@@ -1,6 +1,6 @@
 {
-	"name": "react-pagination-table",
-	"version": "0.1.0",
+	"name": "lbs-react-table",
+	"version": "0.1.1",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^13.4.0",
@@ -36,10 +36,14 @@
 		]
 	},
 	"devDependencies": {
+		"@babel/cli": "^7.20.7",
+		"@babel/core": "^7.20.12",
+		"@babel/preset-react": "^7.18.6",
 		"babel-cli": "^6.26.0",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
-		"react-scripts": "5.0.1"
+		"react-scripts": "^5.0.1",
+		"rimraf": "^4.1.1"
 	},
 	"peerDependencies": {
 		"react": "^18.2.0",
@@ -48,9 +52,12 @@
 	},
 	"main": "dist/index.js",
 	"module": "dist/index.js",
-	"files": ["dist", "README.md"],
+	"files": [
+		"dist",
+		"README.md"
+	],
 	"repository": {
 		"type": "git",
-		"url": "URL_OF_YOUR_REPOSITORY"
+		"url": "https://github.com/l-bruyant/react-pagination-table.git"
 	}
 }

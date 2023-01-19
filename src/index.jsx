@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import EMPLOYEES from './EMPLOYEES.json'
-import CustomTable from './lib/customTable/customTable'
+import CustomTable from './lib/customTable/customReactTable'
 import { employeesTableSetup } from './employeesTableSetup'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))

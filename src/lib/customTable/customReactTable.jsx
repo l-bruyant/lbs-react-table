@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import './customTable.css'
+import './customReactTable.css'
 
 import PropTypes from 'prop-types'
 import React, { useMemo, useState } from 'react'
@@ -16,13 +16,13 @@ import sortTable from './utils/sortTable'
  * A complete table component with search, sort and pagination
  * See proptypes for more information about each prop
  *
- * @function CustomTable
+ * @function CustomReactTable
  *
- * @returns the CustomTable component
+ * @returns the CustomReactTable component
  *
  */
 
-export default function CustomTable({
+export default function CustomReactTable({
 	data,
 	fieldsSetup,
 	defaultSortingField,
@@ -113,7 +113,7 @@ export default function CustomTable({
 	)
 }
 
-CustomTable.propTypes = {
+CustomReactTable.propTypes = {
 	/**
 	 * An array of data to display in the table
 	 */

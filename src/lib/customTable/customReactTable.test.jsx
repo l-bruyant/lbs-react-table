@@ -4,9 +4,9 @@
 import { render } from '@testing-library/react'
 import React from 'react'
 
-import CustomTable from './CustomTable'
+import CustomReactTable from './customReactTable'
 
-describe('CustomTable', () => {
+describe('CustomReactTable', () => {
 	it('should display the data', () => {
 		const data = [
 			{ name: 'John', age: '25' },
@@ -20,7 +20,7 @@ describe('CustomTable', () => {
 		const defaultPaginationOption = '5'
 
 		const { getByText } = render(
-			<CustomTable
+			<CustomReactTable
 				data={data}
 				fieldsSetup={fieldsSetup}
 				paginationOptions={paginationOptions}
