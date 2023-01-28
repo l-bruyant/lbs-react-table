@@ -1,6 +1,14 @@
 {
 	"name": "lbs-react-table",
-	"version": "0.1.2",
+	"version": "0.1.3",
+	"description": "A table component made with React, with pagination, search and sorting. Works on small screens.",
+	"keywords": [
+		"table",
+		"responsive",
+		"search",
+		"pagination",
+		"sorting"
+	],
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^13.4.0",
